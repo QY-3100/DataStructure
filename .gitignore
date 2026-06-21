@@ -1,0 +1,7 @@
+/[Uu]nityproject/[Ll]ibrary/
+/[Uu]nityproject/[Tt]emp/
+/[Uu]nityproject/[Oo]bj/
+/[Uu]nityproject/[Ll]ogs/
+/[Uu]nityproject/UserSettings/
+*.csproj
+*.sln
