@@ -1,0 +1,20 @@
+/* 苹果液态玻璃基础面板样式 */
+.glass-panel {
+    background-color: rgba(255, 255, 255, 0.12); /* 极其通透的半透明白 */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+    /* 核心：极其细腻的白色高光切边（模拟折射） */
+    border-left-color: rgba(255, 255, 255, 0.45);
+    border-top-color: rgba(255, 255, 255, 0.45);
+    border-right-color: rgba(255, 255, 255, 0.15);
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+    border-left-width: 1.5px;
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+
+    padding: 14px;
+}

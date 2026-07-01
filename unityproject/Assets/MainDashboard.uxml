@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GlassStyle.uss?fileID=7433441132597879392&amp;guid=50fe8fadf8acb8047a44abd1b72dad73&amp;type=3#GlassStyle" />
+    <ui:VisualElement name="root-container" style="flex-grow: 1; width: 100%; height: 100%; position: absolute;">
+        <ui:VisualElement name="vehicle-container" class="glass-panel" style="flex-grow: 1; width: 450px; height: 45%; position: absolute; left: 10px; top: 10px;" />
+        <ui:VisualElement name="order-container" class="glass-panel" style="flex-grow: 1; width: 350px; height: 45%; position: absolute; right: 10px; top: 10px;" />
+        <ui:VisualElement name="log-container" class="glass-panel" style="flex-grow: 1; position: absolute; bottom: 10px; left: 10px; width: 350px; height: 45%;" />
+        <ui:VisualElement name="analysis-container" class="glass-panel" style="flex-grow: 1; position: absolute; right: 10px; bottom: 10px; width: 350px; height: 45%;" />
+        <ui:Button text="鲁棒检测" parse-escape-sequences="true" display-tooltip-when-elided="true" name="fault-button" style="position: absolute; bottom: 11px; left: 760px;" />
+    </ui:VisualElement>
+</ui:UXML>
